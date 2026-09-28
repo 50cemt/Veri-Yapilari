@@ -56,3 +56,13 @@ dkms.conf
 
 .DS_Store
 *.out
+# VS Code ayar klasörünü gizle
+.vscode/
+
+# Mac gizli dosyalarını gizle
+.DS_Store
+
+# Uzantısız derleme (executable) dosyalarını gizle
+*
+!*.*
+!*/
